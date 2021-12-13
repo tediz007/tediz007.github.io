@@ -1,0 +1,33 @@
+h1
+{
+	font-size: 35px;
+	background-color:pink;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 35px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+img
+{
+	width: 200px;
+	border: 15px dotted purple;
+	float: left;
+
+}
+
+body
+{
+	background-color:chocolate;
+
+
+}
+.right {
+	float: right;
+}
+
+
