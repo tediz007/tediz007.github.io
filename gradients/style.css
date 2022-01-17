@@ -1,0 +1,16 @@
+h2{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad1 {
+	background: linear-gradient(288deg, rgba(218,0,255,1) 0%, rgba(0,255,244,1) 100%, rgba(217,31,31,1) 100%, rgba(31,212,249,1) 100%);
+}
+
+.grad2 {
+	background: linear-gradient(180deg, rgba(218,0,255,1) 1%, rgba(71,62,252,1) 25%, rgba(118,111,250,1) 44%, rgba(25,129,179,1) 73%, rgba(0,255,244,1) 100%, rgba(217,31,31,1) 100%, rgba(31,212,249,1) 100%);
+}
+
+.grad3 {
+	background: radial-gradient(circle, rgba(218,0,255,1) 1%, rgba(25,129,179,1) 35%, rgba(0,255,244,1) 100%, rgba(217,31,31,1) 100%, rgba(31,212,249,1) 100%);
+}
