@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300&family=PT+Sans&display=swap');
+
+
+h1{
+	background-color: lightcoral;
+	padding: 50px;
+	font size: 70px;
+	text-align: center;
+	font-family: "Merriweather";
+
+}
+
+
+
+h2{
+	background-color: lightblue;
+	padding: 30px;
+	font size: 50px;
+	text-align: right;
+	letter-spacing: 4px;
+	font-family: "Indie Flower";
+
+
+}
+
+
+p{
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: justify;
+	padding: 30px;
+	font-family: "PT Sans";
+	column-count: 3;
+}
+
+body{
+	background: linear-gradient(288deg, rgba(218,0,255,1) 0%, rgba(96,143,249,1) 56%, rgba(0,255,244,1) 100%, rgba(217,31,31,1) 100%, rgba(31,212,249,1) 100%);
+}
