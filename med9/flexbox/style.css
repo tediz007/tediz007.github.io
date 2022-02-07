@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Merriweather:wght@300&family=PT+Sans&display=swap');
+
+.first-flex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 400px;
+		background-color: lightblue;
+}
+
+h1 {
+	background-color: red;
+	font-family: Amatic SC;
+}
+
+.strech-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 400px;
+	background-color: lightgreen;
+}
+
+
+p {
+	background-color: pink;
+}
+
+.third-flex {
+	display: flex;
+	height: 400px;
+	background-color: seagreen;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+img {
+	width: 100px;
+
+}
+
+.fourth-flex {
+	height: 400px;
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.fifth-flex {
+	height: 400px;
+	background: linear-gradient(288deg, rgba(218,0,255,1) 0%, rgba(96,143,249,1) 56%, rgba(0,255,244,1) 100%, rgba(217,31,31,1) 100%, rgba(31,212,249,1) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
