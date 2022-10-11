@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Progres</title>
+	<style type="text/css">
+		
+	body{
+		background-color: #2a9d8f;
+	}
+
+	p{
+		color: darkorange;
+		font-size: 30px;
+		letter-spacing: 5px;
+		margin-top: 400px;
+		margin-left: 50px;
+	}
+
+	@keyframes solidd{
+		0%{width: 0%;}
+		50%{width: 25%;}
+		75%{width: 50%;}
+		85%{width: 75%;}
+	}
+
+	.container{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.container .spiel{
+		border: 10px solid #f4a261;
+		height: 10px;
+		width: 250px;
+		border-radius: 15px;
+		margin-left: 50px;
+
+	}
+
+	.container .zet{
+		background-color: white;
+		height: 10px;
+		width: 250px;
+		border-radius: 15px;
+		animation: solidd 4s;
+
+	}
+
+	</style>
+</head>
+<body>
+
+
+	<p>Progressing...</p>
+	<div class="container">
+		<div class="spiel">
+			<div class="zet"></div>
+		</div>
+	</div>
+
+</body>
+</html>
