@@ -1,0 +1,51 @@
+footer{
+	background: darkblue;
+	color: white;
+	padding: 40px;
+	margin: 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex direction: row;
+	float: left;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+
+}
+
+ a:hover{
+ 	background-color: white;
+ 	padding: 5px;
+ 	color: black;
+ }
+
+ .a1{
+ 	width: 25%;
+ }
+
+ .a2{
+ 	width: 25%;
+ }
+
+ .a3{
+ 	width: 50%;
+ } 
+
+ @media(min-width: 768px){
+ 	.a1{
+ 		width: 100%;
+ 		text-align: left;
+ 	}
+
+ 	.a2{
+ 		width: 100px;
+ 		
+ 	}
+
+ 	.a3{
+ 		width: 100%;
+
+ 	}
+ }
